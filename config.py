@@ -1,0 +1,15 @@
+from pygame.math import Vector2
+
+
+WINDOW_SIZE = Vector2(800, 800)
+WINDOW_COLOR = (13, 22, 11)
+WINDOW_FPS = 10
+
+TILE_LENGTH = 40
+TILE_SIZE = Vector2(TILE_LENGTH)
+TILE_COLORS = (
+    (173, 214, 68),
+    (166, 209, 60)
+)
+
+SNAKE_LENGTH = 20
